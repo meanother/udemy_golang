@@ -10,6 +10,7 @@ func main() {
 
 	// hand.print()
 	// remainingCards.print()
-	greeting := "Hi there!"
-	fmt.Println([]byte(greeting))
+	cards := newDeck()
+	fmt.Println(cards.toString())
+	cards.saveToFile("cards.txt")
 }
