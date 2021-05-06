@@ -7,11 +7,19 @@ Course link
 ```
 Tree
 ```
-    ├── part2
-    │   ├── main
-    │   └── main.go
-    ├── part3
-    │   └── cards
-    │       └── main.go
-    └── readme.md
+.
+├── part2
+│   ├── main
+│   └── main.go
+├── part3
+│   ├── cards
+│   │   ├── cards.txt
+│   │   ├── deck.go
+│   │   ├── deck_test.go
+│   │   └── main.go
+│   └── test_case
+│       └── even.go
+├── part4
+│   └── main.go
+└── readme.md
 ```
